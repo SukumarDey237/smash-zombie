@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash Zombie</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h3 class="btn"><a href="https://github.com/SukumarDey237/smash-zombie">Git-hub</a></h3>
+        </div>
+        <div>
+            <h1 class="logo">Smash Zombie</h1>
+        </div>
+        <div id="levels">
+            <h3 class="btn active_lvl" id="easy">Easy</h3>
+            <h3 class="btn" id="medium">Medium</h3>
+            <h3 class="btn" id="hard">Hard</h3>
+        </div>
+    </nav>
+    <main>
+        <div id="leftdiv">
+            <img src="resources/running-zombie.gif" alt="running-zombie">
+        </div>
+
+        <div id="centerdiv">
+            <div class="gamestat">
+                <h3>Score : <span id="score">0</span></h3>
+                <h3>Chance left : <span id="chanceleft">100</span></h3>
+            </div>
+            <div class="grid"></div>
+            <div class="controls">
+                <h3 class="btn" id="startbtn">Start</h3>
+                <h3 class="btn" id="reset"><a href="index.html">Reset</a></h3>
+            </div>
+        </div>
+        <div id="rightdiv">
+            <img src="resources/running-zombie.gif" alt="running-zombie">
+        </div>
+    </main>
+    
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
